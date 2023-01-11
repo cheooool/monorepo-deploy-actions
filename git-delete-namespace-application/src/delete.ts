@@ -1,7 +1,6 @@
 import * as core from '@actions/core'
 import * as io from '@actions/io'
 import { promises as fs } from 'fs'
-import * as path from 'path'
 
 type Inputs = {
   directory: string
