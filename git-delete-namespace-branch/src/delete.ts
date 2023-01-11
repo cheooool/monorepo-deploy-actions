@@ -1,5 +1,4 @@
 import * as core from '@actions/core'
-import * as path from 'path'
 
 export const computeRefsToDelete = (
   refs: string[],
