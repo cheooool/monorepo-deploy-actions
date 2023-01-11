@@ -15,7 +15,6 @@ export type Application = {
 }
 
 type KubernetesApplication = {
-  apiVersion: string
   kind: string
   metadata: {
     name: string

@@ -1,5 +1,4 @@
 import * as core from '@actions/core'
-import * as exec from '@actions/exec'
 
 export const init = async (cwd: string, repository: string, token: string): Promise<void> => {
   await exec.exec('git', ['version'], { cwd })
