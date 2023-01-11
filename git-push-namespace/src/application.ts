@@ -22,7 +22,6 @@ type KubernetesApplication = {
     finalizers: string[]
   }
   spec: {
-    project: string
     source: {
       repoURL: string
       targetRevision: string
