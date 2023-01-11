@@ -1,6 +1,4 @@
 import * as core from '@actions/core'
-import { run } from '../src/run'
-
 async function main(): Promise<void> {
   const outputs = await run({
     manifests: core.getInput('manifests', { required: true }),
