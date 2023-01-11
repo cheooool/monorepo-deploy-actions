@@ -1,5 +1,5 @@
 import * as core from '@actions/core'
-
+console.log(123);
 const main = async (): Promise<void> => {
   const outputs = await run({
     retain: core.getMultilineInput('retain-pull-request-numbers'),
